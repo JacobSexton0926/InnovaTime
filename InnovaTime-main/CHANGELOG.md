@@ -4,6 +4,19 @@ The version appears in InnovaTime's nav bar. Versions 1.3.0 and 1.4.0 were
 assigned afterwards to group the changes made while the label still read
 v1.2.1; 1.5.0 is the first release to show its own number.
 
+## v2.1.0 — 2026-10-07
+- Ronald McDonald (RMH) and The National Exchange Club (TNEC): LAB time is
+  capped at 5 hours per month, shared by all techs
+  - The month is the entry's date, not today's date. All LAB entries for that
+    month count, billed or not.
+  - Saving a LAB entry that would go over 5 hours is blocked with a message
+    like "The National Exchange Club currently has 3.5 hours logged, please
+    log 1.5 hours and any additional will be put under OOCH". Re-enter up to
+    the remaining hours as LAB and log the rest as OOCH.
+  - Other activity codes (OOCH, PRT, DT, …) are not capped
+  - Applies to New Entry and Edit Entry. Editing an existing entry doesn't
+    count that entry's old hours against itself.
+
 ## v2.0.0 — 2026-10-05
 - New look ("Studio Light") across every page, with the new InnovaTime logo
   - The menu moves to a sidebar on the left, with an icon for each page
