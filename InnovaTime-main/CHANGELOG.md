@@ -4,6 +4,21 @@ The version appears in InnovaTime's nav bar. Versions 1.3.0 and 1.4.0 were
 assigned afterwards to group the changes made while the label still read
 v1.2.1; 1.5.0 is the first release to show its own number.
 
+## v2.2.0 — 2026-10-07
+- RMH and TNEC: going over the 5 LAB hours a month no longer just blocks
+  the entry. InnovaTime offers to split it instead:
+  - A card shows how many LAB hours are already logged, how much of this
+    entry still fits as LAB, and how much goes over the cap as OOCH
+  - **Save as 2 entries** saves the part that fits as LAB and the rest as
+    OOCH (same date, notes and project)
+  - **Only log the X h of LAB** saves just the part that fits
+  - Once the month's 5 hours are used up, the button reads **Save it as
+    OOCH**
+  - Works on Edit Entry too: the entry keeps the LAB hours that fit and a
+    new OOCH entry is added for the rest
+  - If there's no active OOCH activity code, it falls back to the old
+    message and doesn't save
+
 ## v2.1.0 — 2026-10-07
 - Ronald McDonald (RMH) and The National Exchange Club (TNEC): LAB time is
   capped at 5 hours per month, shared by all techs
