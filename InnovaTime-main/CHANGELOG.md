@@ -4,6 +4,23 @@ The version appears in InnovaTime's nav bar. Versions 1.3.0 and 1.4.0 were
 assigned afterwards to group the changes made while the label still read
 v1.2.1; 1.5.0 is the first release to show its own number.
 
+## v2.3.0 — 2026-10-07
+- New Entry and Edit Entry look livelier. Entering time works exactly the
+  same — same fields, same pickers, same Tab/Enter flow.
+  - A soft blue-to-lime light travels around the edge of the form, with
+    faint glows behind it (light and dark mode)
+  - A green check pops into Client Code and Activity Code once picked
+  - The box you're typing in glows blue; hours show bigger and bolder
+  - A strip above Save reads the entry back as you fill it in, e.g.
+    USI · LAB · 1.5 hours on Wed 10/7, and turns green when it's complete
+  - Save shines on hover and pulses gently once the entry is ready
+  - A small burst of confetti after "Time entry added"
+- Fixed: the client list sometimes popped open while New Entry was still
+  sliding in (or didn't open at all). It now waits for the page to settle,
+  then unrolls down from the box with its rows following one after another.
+  The activity list opens the same way.
+- Animations are skipped for anyone whose computer is set to reduce motion
+
 ## v2.2.0 — 2026-10-07
 - RMH and TNEC: going over the 5 LAB hours a month no longer just blocks
   the entry. InnovaTime offers to split it instead:
