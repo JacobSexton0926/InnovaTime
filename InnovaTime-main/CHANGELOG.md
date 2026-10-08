@@ -4,6 +4,18 @@ The version appears in InnovaTime's nav bar. Versions 1.3.0 and 1.4.0 were
 assigned afterwards to group the changes made while the label still read
 v1.2.1; 1.5.0 is the first release to show its own number.
 
+## v2.5.0 — 2026-10-08
+- Client Detail Report Print (one client or several selected) and Download
+  PDF no longer show CON hours or the date range anywhere — not in the
+  header, the Billed heading or the footer. The screen still shows both.
+  - The PDF file name still carries the month, e.g. AJDoor102026.pdf
+- Both now end with a Total Time for the outstanding entries:
+  - Print: a Total Time box under the table (with entries ticked, it
+    totals just those)
+  - PDF: a TOTAL TIME row closing the table
+- Print no longer spits out a blank last page when the report ends near
+  the bottom of a page
+
 ## v2.4.0 — 2026-10-08
 - Client Detail Report: with 2 or more entries ticked, a **Remove (n)**
   button now sits at the top next to Mark Billed and Hold, so you can take
