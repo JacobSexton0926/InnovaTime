@@ -4,6 +4,19 @@ The version appears in InnovaTime's nav bar. Versions 1.3.0 and 1.4.0 were
 assigned afterwards to group the changes made while the label still read
 v1.2.1; 1.5.0 is the first release to show its own number.
 
+## v2.4.0 — 2026-10-08
+- Client Detail Report: with 2 or more entries ticked, a **Remove (n)**
+  button now sits at the top next to Mark Billed and Hold, so you can take
+  several entries out of the client's report at once. Like the single
+  Remove, they stay on each employee's own hours, Print Slip and User
+  Reports, and show under Removed From Report where they can be restored.
+- Client Detail Report: the title row with the Mark Billed, Hold, Remove,
+  Print and Download PDF buttons now stays pinned at the top of the screen
+  as you scroll down the entries, like it does on Client Reports
+- When the buttons don't all fit on one line, they now wrap to the right
+  and the client name drops under the title as a whole instead of breaking
+  mid-name
+
 ## v2.3.0 — 2026-10-07
 - New Entry and Edit Entry look livelier. Entering time works exactly the
   same — same fields, same pickers, same Tab/Enter flow.
