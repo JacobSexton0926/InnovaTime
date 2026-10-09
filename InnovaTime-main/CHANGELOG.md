@@ -4,6 +4,12 @@ The version appears in InnovaTime's nav bar. Versions 1.3.0 and 1.4.0 were
 assigned afterwards to group the changes made while the label still read
 v1.2.1; 1.5.0 is the first release to show its own number.
 
+## v2.5.1 — 2026-10-09
+- Hertzfeld Poultry Farms (HPF): LAB time is now capped at 4 hours per
+  month, shared by all techs — the same as RMH and TNEC (5 hours each).
+  Going over offers the same split: the part that fits as LAB, the rest as
+  OOCH.
+
 ## v2.5.0 — 2026-10-08
 - Client Detail Report Print (one client or several selected) and Download
   PDF no longer show CON hours or the date range anywhere — not in the
