@@ -5,10 +5,12 @@ assigned afterwards to group the changes made while the label still read
 v1.2.1; 1.5.0 is the first release to show its own number.
 
 ## v2.6.0 — 2026-10-09
-- New Entry: a running day total in a blue box under the Date box, e.g.
-  **4.5 h** logged on Fri, 10/2. It updates when you change the date, and
-  as you type hours the second line shows the new total, e.g. **6 h** with
-  this one. The box keeps the same size, so the form doesn't shift.
+- New Entry: a running day total for the picked date, in a blue box next
+  to the "Your entry will show here" strip above Save (the strip keeps the
+  left half, the day total takes the right half; on a phone they stack).
+  It reads e.g. **4.5 h** logged on Fri, 10/2, updates when you change the
+  date, and as you type hours the second line shows the new total, e.g.
+  **6 h** with this one. Edit Entry is unchanged.
   - Counts all of that person's time on the date (any client or activity);
     parts aren't counted
   - When an admin adds time for someone else, it shows that person's total
